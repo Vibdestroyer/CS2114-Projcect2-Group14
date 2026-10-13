@@ -1,0 +1,50 @@
+Cave Rat,A scrappy rat with sharp teeth and a bad attitude,7,2
+Dungeon Spider,A hairy spider lurking between damp stones,8,2
+Skeleton Scout,A rattling skeleton carrying a chipped dagger,10,3
+Goblin Sneak,A small goblin that attacks from dark corners,10,3
+Mold Slime,A wobbling green slime that smells of old bread,9,2
+Cave Bat,A frantic bat swooping through the darkness,6,2
+Rusty Guard,A shambling guard in corroded armor,13,3
+Bone Crawler,A collection of bones dragging itself forward,11,3
+Tunnel Kobold,A wiry reptilian scavenger defending its tunnel,10,3
+Crypt Beetle,A hard shelled beetle drawn to lantern light,12,2
+Restless Spirit,A faint ghost whispering forgotten warnings,12,4
+Dust Imp,A tiny imp that kicks dust into your eyes,9,3
+Rogue Mushroom,A walking mushroom puffing harmless looking spores,11,3
+Grave Worm,A pale worm emerging from cracks in the floor,12,3
+Feral Cultist,A wild eyed devotee wielding a blunt knife,14,4
+Stone Mimic,A small rock that suddenly sprouts teeth,13,4
+Rat Kingling,A larger rat wearing a crown of bent wire,15,4
+Skeleton Archer,A skeleton firing crooked arrows,12,4
+Goblin Bruiser,A broad shouldered goblin with a wooden club,16,4
+Cursed Lantern,A floating lantern that lashes out with hot chains,13,4
+Swamp Leech,A massive leech slithering across wet stone,10,3
+Possessed Broom,A battered broom sweeping aggressively toward intruders,8,2
+Angry Turnip,A furious root vegetable with surprisingly sharp leaves,9,2
+Hallway Gremlin,A mischievous creature that steals shoelaces,10,3
+Clockwork Mouse,A squeaking mechanical mouse with metal fangs,11,3
+Moss Golem,A squat creature formed from moss and loose stones,17,4
+Crypt Hound,A gaunt hound prowling the burial halls,15,5
+Wandering Zombie,A slow undead wanderer with relentless persistence,18,4
+Ash Wisp,A flickering ball of ash and ember,11,4
+Mirror Shade,A dim reflection that moves without its owner,14,5
+Cellar Ooze,A sticky ooze that seeps beneath locked doors,15,3
+Candle Goblin,A goblin waving an absurdly large candle,12,4
+Thornling,A bundle of enchanted roots with thorny arms,14,4
+Chipped Gargoyle,A cracked stone gargoyle awakened by footsteps,19,5
+Lost Squire,A confused spectral squire defending an empty throne,17,5
+Fungal Stalker,A fungus covered hunter creeping through shadows,16,5
+Iron Jaw Rat,A dungeon rat with unusually tough teeth,14,4
+Phantom Librarian,A ghost furious about overdue books,13,5
+Tax Collector Imp,A tiny demon demanding payment for passage,12,4
+Sentient Sock,A lost sock animated by deeply suspicious magic,7,2
+Gelatinous Pebble,A tiny transparent cube that thinks it is enormous,10,3
+Echo Wraith,A whispering wraith that repeats your last words,18,5
+Tunnel Bandit,A desperate outlaw hiding beneath the castle,17,5
+Bone Juggler,A skeleton that hurls its own ribs as weapons,15,5
+Scrap Automaton,A clanking machine assembled from discarded tools,20,5
+Bog Hag,A hunched witch emerging from damp underground pools,19,6
+Crystal Scorpion,A glittering scorpion with a brittle stinger,16,6
+Minor Fire Elemental,A small flame spirit that sparks when angered,18,6
+Forgotten Knight,A faded armored warrior bound to the dungeon,22,6
+Baby Dungeon Dragon,A tiny dragon whose sneeze is still dangerous,24,7

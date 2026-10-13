@@ -1,0 +1,50 @@
+Chipped Iron Dagger,A nicked blade with an unreliable edge,2,5,WEAPON
+Splintered Club,A rough wooden club worn from use,2,4,WEAPON
+Rusty Shortsword,An old sword with a dull rusty edge,3,3,WEAPON
+Bent Spear,A spear whose shaft has started to warp,3,4,WEAPON
+Cracked Hand Axe,A small axe with a chipped head,4,2,WEAPON
+Training Sword,A lightweight wooden practice sword,1,6,WEAPON
+Blunt Mace,A heavy mace with a rounded head,4,3,WEAPON
+Worn Hunting Knife,A narrow knife with a frayed grip,3,5,WEAPON
+Broken Halberd,A polearm shortened by a snapped shaft,5,2,WEAPON
+Tarnished Rapier,A thin blade with a loose guard,4,4,WEAPON
+Bone Shiv,A sharpened bone wrapped in twine,2,2,WEAPON
+Wooden Staff,A plain staff with a cracked tip,2,6,WEAPON
+Dented Warhammer,A compact hammer marked by old impacts,5,3,WEAPON
+Crooked Sickle,A curved farming blade repurposed for combat,3,4,WEAPON
+Frayed Sling,A simple sling with an aging leather pouch,2,5,WEAPON
+Notched Cutlass,A short curved sword with a jagged edge,5,3,WEAPON
+Iron Poker,A fire poker useful in desperate fights,1,6,WEAPON
+Wobbly Trident,A three pronged spear with loose fittings,6,2,WEAPON
+Faded Rune Blade,A sword whose runes have almost worn away,7,2,WEAPON
+Patchwork Crossbow,A makeshift crossbow held together by repairs,6,3,WEAPON
+Torn Leather Vest,A thin vest with several patched tears,2,5,ARMOR
+Dented Tin Helm,A lightweight helmet with a bent rim,2,4,ARMOR
+Frayed Cloth Cloak,A worn cloak offering minimal protection,1,6,ARMOR
+Cracked Buckler,A small shield with a split face,3,3,ARMOR
+Patchwork Gloves,Old gloves reinforced with spare leather,1,5,ARMOR
+Loose Chain Shirt,A chain shirt with several missing links,4,2,ARMOR
+Splintered Wooden Shield,A wooden shield reinforced with rope,3,4,ARMOR
+Worn Hide Boots,Stiff boots made from weathered hide,2,6,ARMOR
+Rusty Arm Guards,Metal guards showing patches of rust,3,3,ARMOR
+Padded Gambeson,A quilted jacket with flattened stuffing,4,5,ARMOR
+Chipped Shoulder Plate,A single plate with a chipped edge,4,2,ARMOR
+Battered Knee Guards,Mismatched guards strapped around the knees,2,5,ARMOR
+Thin Scale Vest,An old vest with scattered metal scales,5,3,ARMOR
+Crude Iron Shield,A heavy shield with a weak handle,6,2,ARMOR
+Worn Brigandine,A patched coat lined with small plates,5,4,ARMOR
+Weak Healing Potion,A diluted red potion that restores a little health,3,1,CONSUMABLE
+Stale Bread,A hard loaf that restores a tiny bit of health,1,1,CONSUMABLE
+Bruised Apple,A battered apple that offers slight recovery,1,1,CONSUMABLE
+Herbal Tonic,A bitter mixture that restores some health,4,1,CONSUMABLE
+Small Bandage,A narrow strip of cloth for minor wounds,2,1,CONSUMABLE
+Watery Soup,A lukewarm soup that offers basic recovery,2,1,CONSUMABLE
+Dried Berries,A small handful of restorative berries,2,1,CONSUMABLE
+Minor Healing Salve,A rough herbal paste that treats shallow cuts,5,1,CONSUMABLE
+Cracked Honey Jar,A little honey remains for quick recovery,3,1,CONSUMABLE
+Medicinal Root,A bitter root that restores a little health,3,1,CONSUMABLE
+Faded Healing Scroll,A weak magical scroll that restores health,6,1,CONSUMABLE
+Warm Tea Flask,A small flask of calming restorative tea,2,1,CONSUMABLE
+Salted Jerky,A tough strip of meat for modest recovery,2,1,CONSUMABLE
+Small Remedy Vial,A tiny vial of low grade restorative liquid,5,1,CONSUMABLE
+Moss Poultice,A bundle of moss used to soothe wounds,4,1,CONSUMABLE
