@@ -1,9 +1,9 @@
 public class Item {
-    private String name;
-    private String description;
-    private int value;
+    private final String name;
+    private final String description;
+    private final int value;
     private int durability;
-    private ItemType type;
+    private final ItemType type;
     
     public enum ItemType {
     ARMOR,
