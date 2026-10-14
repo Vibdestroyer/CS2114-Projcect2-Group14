@@ -1,8 +1,8 @@
 public class Encounter {
-    private String name;
-    private String description;
+    private final String name;
+    private final String description;
     private int health;
-    private int damage;
+    private final int damage;
     public Encounter(String n, String d, int h, int dmg){
         this.name = n;
         this.description = d;

@@ -27,23 +27,34 @@ public class Dungeon {
 
             Item loot = null;
             Encounter encounter = null;
-            String name ="";
             Room.RoomType type = Room.RoomType.MAIN;
-            String description = "";
             boolean sideRoomAvailable = true;
+            String[] roomNameAndDescription = loader.mainRoomsNamesAndDescriptions();
 
             if(Math.random()<.4){
                 loot = loader.getRandomMainItem();
             }
             if(Math.random()<.2){
-                encounter = new Encounter("Goblin", "A small goblin.", 10, 2);
+                encounter = loader.getRandomMainEncounter();
             }
-            if (Math.random()<.3){
+            if (Math.random()<.25){
                 sideRoomAvailable = false;
             }
-            Room room = new Room(loot, encounter, name, type, description, sideRoomAvailable);
+            
+
+
+            Room room = new Room(loot, encounter, roomNameAndDescription[0], type, roomNameAndDescription[1], sideRoomAvailable);
             rooms.addToEnd(room);
         }
         currentRoom = rooms.get(0);
+    }
+    public void moveToNextRoom() {
+        if (canMoveToNextRoom()) {
+            currentMainRoomIndex++;
+            currentRoom = rooms.get(currentMainRoomIndex);
+        }
+    }
+    public boolean canMoveToNextRoom() {
+        return currentMainRoomIndex < rooms.size() - 1;
     }
 }
