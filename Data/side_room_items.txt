@@ -1,0 +1,50 @@
+Steel Longsword,A polished blade recovered from an abandoned guard post,8,9,WEAPON
+Runed Hatchet,An iron hatchet etched with faintly glowing runes,9,7,WEAPON
+Hunter Crossbow,A compact crossbow with a reinforced stock,8,8,WEAPON
+Serrated Saber,A curved sword with a wicked toothed edge,9,6,WEAPON
+Bronze Warhammer,A heavy hammer built to crack dungeon stone,10,6,WEAPON
+Frostbite Dagger,A dagger that leaves a thin rim of frost,7,10,WEAPON
+Ashwood Spear,A well balanced spear tipped with hardened steel,7,9,WEAPON
+Moonlit Rapier,A slender rapier that shimmers in dim light,9,8,WEAPON
+Spiked Mace,A solid mace studded with short iron spikes,10,7,WEAPON
+Obsidian Knife,A volcanic glass blade with a razor sharp edge,8,5,WEAPON
+Stormwood Bow,A strong bow made from lightning struck timber,8,9,WEAPON
+Silvered Shortsword,A sharp shortsword with a silver coated blade,7,10,WEAPON
+Ironclad Flail,A chain flail ending in a weighted metal head,10,5,WEAPON
+Emberbrand Sword,A sword that gives off a gentle ember glow,11,6,WEAPON
+Bonecarver Axe,A rugged axe decorated with carved bone,9,8,WEAPON
+Echoing Staff,A dense staff that hums when swung,6,10,WEAPON
+Thorned Whip,A flexible whip braided with sharp thorns,7,8,WEAPON
+Guardian Pike,A long pike once carried by fortress guards,8,9,WEAPON
+Crystal Club,A blunt weapon capped with jagged blue crystal,10,6,WEAPON
+Gilded Cleaver,A broad cleaver with a surprisingly keen edge,12,5,WEAPON
+Reinforced Leather Vest,Layered leather with sturdy metal fasteners,5,10,ARMOR
+Chainmail Shirt,Interlocking iron rings protect the torso,6,9,ARMOR
+Iron Buckler,A small metal shield with a strong grip,5,11,ARMOR
+Steel Helmet,A close fitting helmet with a dented brow,6,8,ARMOR
+Scale Armor,Overlapping metal scales sewn onto thick cloth,7,8,ARMOR
+Runed Bracers,Wrist guards marked with protective symbols,5,10,ARMOR
+Stoneguard Boots,Heavy boots lined with reinforced plates,4,12,ARMOR
+Knight Shield,A broad shield bearing a faded crest,8,7,ARMOR
+Shadow Cloak,A thick dark cloak with hidden leather padding,4,11,ARMOR
+Warden Gauntlets,Steel gloves with reinforced knuckles,6,9,ARMOR
+Bronze Breastplate,A shaped plate of sturdy polished bronze,7,7,ARMOR
+Crystal Ward,A light guard set with translucent crystal,6,8,ARMOR
+Ironwood Armor,Wooden armor treated to resist heavy blows,7,9,ARMOR
+Royal Guard Helm,A crested helmet made for elite soldiers,8,6,ARMOR
+Bastion Plate,A battered but formidable set of chest armor,9,6,ARMOR
+Greater Healing Potion,A bright red potion with a warming effect,9,1,CONSUMABLE
+Restorative Tonic,A herbal drink that eases fatigue and injuries,7,1,CONSUMABLE
+Honeyroot Elixir,A sweet draught brewed from glowing roots,8,1,CONSUMABLE
+Fortified Bandage,A sealed bandage soaked with healing herbs,6,1,CONSUMABLE
+Phoenixberry Juice,A tangy drink made from rare orange berries,10,1,CONSUMABLE
+Moonwater Flask,A cool silver liquid that restores vitality,8,1,CONSUMABLE
+Spiced Recovery Broth,A hot broth that helps heal battle wounds,7,1,CONSUMABLE
+Crystal Salve,A shimmering ointment for painful injuries,9,1,CONSUMABLE
+Golden Apple Slice,A small magical slice that restores health,11,1,CONSUMABLE
+Mending Mushroom,A softly glowing mushroom with restorative properties,6,1,CONSUMABLE
+Radiant Nectar,A floral drink that leaves the skin warm,10,1,CONSUMABLE
+Strong Health Draught,A concentrated potion prepared for veteran explorers,12,1,CONSUMABLE
+Healing Tea,A fragrant cup that slowly revives the drinker,6,1,CONSUMABLE
+Violet Recovery Syrup,A thick medicinal syrup that restores strength,8,1,CONSUMABLE
+Ancient Remedy,A sealed remedy from a forgotten apothecary,12,1,CONSUMABLE

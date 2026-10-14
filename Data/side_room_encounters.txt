@@ -1,0 +1,50 @@
+Armored Goblin,A goblin wearing scavenged steel plates,22,5
+Crypt Marauder,A grave robber who refuses to stay dead,24,6
+Feral Warg,A huge wolf with a scarred muzzle,26,7
+Bone Sentinel,A towering skeleton with a rusted halberd,32,7
+Cave Troll,A hulking troll with fists like boulders,42,9
+Bloodfang Bat,An enormous bat circling the ceiling,20,6
+Haunted Armor,An empty suit of armor driven by dark magic,35,7
+Venom Spider,A massive spider with glistening fangs,24,8
+Dread Cultist,A masked zealot whispering forbidden chants,27,7
+Stone Golem,A lumbering guardian made from cracked stone,44,8
+Grave Wraith,A pale apparition drifting through the halls,28,8
+Ogre Brute,A broad ogre dragging a stone club,40,9
+Fallen Paladin,A disgraced knight in tarnished armor,38,9
+Blight Slime,A caustic slime bubbling with strange vapors,25,6
+Shadow Stalker,A cloaked predator moving between torch shadows,30,8
+Ironjaw Hound,A vicious hound with metal plated jaws,24,7
+Frostbound Skeleton,A skeleton coated in shards of ice,27,7
+Tomb Serpent,A giant snake wrapped around ancient pillars,29,8
+Dungeon Berserker,A frenzied warrior swinging two axes,32,10
+Cursed Archer,A skeletal archer firing spectral arrows,23,8
+Mossback Guardian,A rocky creature overgrown with moss,37,7
+Ash Drake,A young drake exhaling hot sparks,43,10
+Tunnel Lurker,A many legged hunter hiding in narrow cracks,27,8
+Gloom Harpy,A shrieking winged monster with hooked claws,28,8
+Cursed Huntsman,An undead tracker who never misses a trail,32,9
+Fungal Horror,A walking mass of spores and twisted roots,34,7
+Deepwater Ghoul,A drowned creature dripping black water,29,7
+Molten Imp,A fiery imp with burning fingertips,20,8
+Grim Executioner,A silent figure carrying an oversized axe,41,10
+Crystal Scorpion,A scorpion armored with sharp crystal plates,33,9
+Abyssal Watcher,A floating eye that lashes out with dark energy,34,9
+Rusted Automaton,A creaking metal soldier with heavy fists,36,8
+Gravetide Knight,An undead cavalry knight without a horse,38,9
+Thunder Beetle,A giant beetle that crackles with static,30,8
+Rotting Minotaur,A horned beast wandering the ruined corridors,45,10
+Lantern Phantom,A ghost luring travelers with false lights,25,7
+Blackthorn Dryad,A twisted forest spirit covered in thorns,32,8
+Mirror Mimic,A mimic that copies the silhouette of its target,33,8
+Relic Devourer,A scaled beast that hoards enchanted scraps,41,9
+Silent Gargoyle,A stone gargoyle that moves when unobserved,39,8
+Tax Auditor Wraith,A spectral clerk demanding impossible receipts,23,7
+Angry Bookshelf,A sentient bookshelf flinging heavy encyclopedias,31,6
+Caffeinated Mimic,A treasure chest that attacks at alarming speed,27,9
+Possessed Broom Squad,Three enchanted brooms fighting as one,25,7
+Disgruntled Chef,An undead cook armed with a sizzling skillet,29,8
+Sentient Door,A furious wooden door that refuses to open,36,6
+Screaming Teapot,A levitating teapot firing scalding water,21,8
+Unpaid Intern Imp,A frantic imp powered entirely by resentment,22,9
+Mushroom Monarch,A royal mushroom commanding a cloud of spores,38,8
+Dungeon Goose,A terrifying goose that has never known fear,26,10
