@@ -14,6 +14,11 @@ public class Dungeon {
     public Room getCurrentRoom() {
         return currentRoom;
     }
+    
+    public int getRoomCount()
+    {
+        return rooms.size();
+    }
 
     public void makeDungeon() {
         rooms.clear();

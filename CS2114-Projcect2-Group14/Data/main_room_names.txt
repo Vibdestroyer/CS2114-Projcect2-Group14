@@ -1,0 +1,50 @@
+Ashen Ballroom,Blackened chandeliers sway above glowing floorboards while invisible dancers shuffle through the smoke.
+Frostbite Conservatory,Crystal vines crawl over frozen windows and delicate glass flowers crack whenever you breathe.
+Whispering Catacombs,Burial niches stretch into the dark as hushed voices repeat words you have not spoken yet.
+Sunken Library,Water drips from swollen bookshelves and a soaked book turns its own pages in the silence.
+Clockwork Chapel,Rusted gears grind behind the altar while a mechanical choir sings one note too low.
+Bloodmoon Observatory,A red moon fills the cracked telescope and constellations rearrange when you look away.
+Mossbound Throne Room,Roots split an abandoned throne and something beneath the moss answers every footstep.
+Mirror Maze,Dozens of mirrors show an empty hallway except for one reflection that follows you.
+Emberforge Corridor,Streams of molten metal glow under iron grates and the walls pulse with furnace heat.
+Moonlit Greenhouse,Pale mushrooms illuminate tangled branches and every flower turns toward your heartbeat.
+Drowned Bell Tower,A bell swings underwater without making a sound while shadows drift beyond the windows.
+Bone Orchard,White trees sprout from heaps of bones and brittle branches rattle like teeth in the wind.
+Stormglass Gallery,Lightning flashes inside tall glass pillars and your hair rises before each silent strike.
+The Hollow Nursery,Empty cradles rock on their own and a lullaby creeps from beneath the floor.
+Spider Silk Atrium,Thick webs drape the ceiling and hundreds of tiny eyes disappear when you lift your torch.
+Cinder Kitchen,A banquet burns without turning to ash and the oven door knocks from the inside.
+The Forgotten Aquarium,Empty tanks contain floating seaweed and wet footprints lead away from a bone dry floor.
+Gravewater Crossing,A narrow bridge spans black water where pale hands reach up without breaking the surface.
+Howling Ice Vault,Blue frost seals enormous stone chests and a wind moans through cracks in the walls.
+Twisted Puppet Theater,Wooden marionettes hang above a ruined stage and their heads turn as you pass.
+Lanternless Alley,An indoor alley stretches between leaning brick walls beneath a sky painted with moving clouds.
+Rotting Banquet Hall,Silver plates hold fresh meals beside decayed chairs and unseen guests scrape their knives.
+Obsidian Bathhouse,Steam coils above black pools that reflect strangers standing just behind your shoulder.
+Thornheart Garden,Roses bloom from iron cages and their thorny vines tighten around old suits of armor.
+Petrified Menagerie,Stone beasts line the room and fine dust falls whenever one of them blinks.
+Eclipsed Shrine,A black sun hangs above a shrine and its cold light casts shadows in the wrong direction.
+Flooded Armory,Rusty swords float upright in ankle deep water and helmets bob toward approaching footsteps.
+The Crooked Infirmary,Empty hospital beds creak behind stained curtains and medicine bottles whisper patient names.
+Sootfall Aviary,Birdcages dangle from scorched rafters while wingbeats echo from cages that are still locked.
+Silvermist Dock,A wooden pier juts into a sea of silver fog and a boat returns whenever you blink.
+Dreamer's Attic,Old toys drift near the rafters and a painted door appears only when your eyes are closed.
+The Spiral Stairwell,Steps curl around a bottomless shaft and the same broken window appears on every landing.
+Ashflower Meadow,Gray flowers grow through cracked flagstones and release sparks instead of pollen.
+The Weeping Quarry,Marble statues cry dark water into mining pits and each tear echoes like a hammer strike.
+Candlemaker's Crypt,Rows of candles burn with green flames and the wax forms faces that seem to recognize you.
+Thunderroot Cavern,Tree roots hang through a cavern ceiling and distant thunder rolls from deep underground.
+The Shattered Planetarium,Fragments of a painted night sky orbit a broken machine above a floor dusted with starlight.
+Glassbone Passage,Transparent ribs arch over the path and a slow pulse travels through them as you walk.
+Crimson Tapestry Hall,Enormous tapestries depict battles that change whenever someone turns their back.
+The Inverted Cellar,Barrels cling to the ceiling and dark liquid rises upward from shattered bottles.
+Forgotten Train Platform,A spectral train waits beside a cracked platform with no tracks and no passengers.
+Black Sand Sanctuary,Fine black sand pours from the ceiling yet never piles up around your boots.
+The Witchlight Marsh,Cold blue flames float over stagnant pools and vanish whenever you approach their reflections.
+Rustwind Foundry,Abandoned machinery turns in a dry red wind and iron filings crawl across the floor.
+The Sleeping Volcano,Soft ash covers the chamber and a distant heartbeat trembles through the warm stone.
+Porcelain Mausoleum,Delicate white coffins line the walls and hairline cracks spread across them when you speak.
+The Hollow Lighthouse,A rotating beam reveals impossible coastlines through windows buried deep below the earth.
+Echoing Music Box,An enormous music box plays a broken melody and the floor clicks forward with every note.
+Starlit Ice Cavern,Stars glow beneath a clear frozen lake and something immense moves far below your feet.
+The Velvet Abyss,Heavy velvet curtains conceal a vast darkness where footsteps continue after you stop walking.
