@@ -1,0 +1,10 @@
+The Ashen Sovereign,A crown of living coals floats above a king whose footsteps turn stone to embers,115,9
+The Drowned Oracle,An eyeless prophet drips black seawater and whispers the exact moment of your death,95,10
+Mother Marrowveil,A towering bone witch stitches fallen adventurers into the hem of her funeral gown,105,8
+The Clockwork Requiem,A cathedral sized automaton marches to the rhythm of a bell that never stops ringing,135,9
+The Hunger Below,A pale many jawed creature crawls from a crack too narrow for its enormous body,125,11
+The Frostbound Executioner,A silent giant drags an axe of blue ice through a blizzard trapped inside the room,110,10
+The Keeper of Stolen Names,A faceless archivist unrolls scrolls bearing the names of every hero it has defeated,85,8
+The Candlegrave Saint,A halo of extinguished candles circles a fallen guardian wrapped in grave cloth,100,7
+The Thornheart Colossus,An ancient tree monster tears itself free from the floor with roots full of rusted blades,140,9
+The Grinning Moon,A floating porcelain face with too many teeth sheds shadows that laugh before they strike,90,11

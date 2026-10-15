@@ -1,5 +1,5 @@
 public class Dungeon {
-    private LinkedChain<Room> rooms;
+    private final LinkedChain<Room> rooms;
     private int currentMainRoomIndex;
     private Room currentRoom;
     private Room sideRoom;
@@ -26,9 +26,11 @@ public class Dungeon {
         sideRoom = null;
 
         GameDataLoader loader = new GameDataLoader();
+        String[] firstRoomNameAndDescription = loader.mainRoomsNamesAndDescriptions();
+        Room firstRoom = new Room(loader.getRandomMainItem(), null, firstRoomNameAndDescription[0], Room.RoomType.MAIN, firstRoomNameAndDescription[1], true);
+        rooms.addToEnd(firstRoom);
 
-        
-        for (int i = 0; i < 6; i++){
+        for (int i = 0; i < 5; i++){
 
             Item loot = null;
             Encounter encounter = null;
@@ -51,6 +53,7 @@ public class Dungeon {
             Room room = new Room(loot, encounter, roomNameAndDescription[0], type, roomNameAndDescription[1], sideRoomAvailable);
             rooms.addToEnd(room);
         }
+        makeBossRoom();
         currentRoom = rooms.get(0);
     }
     public void moveToNextRoom() {
@@ -61,5 +64,32 @@ public class Dungeon {
     }
     public boolean canMoveToNextRoom() {
         return currentMainRoomIndex < rooms.size() - 1;
+    }
+    public void makeSideRoom() {
+        if (currentRoom.isSideRoomAvailable() && sideRoom == null) {
+            GameDataLoader loader = new GameDataLoader();
+            Item loot = null;
+            Encounter encounter = null;
+            Room.RoomType type = Room.RoomType.SIDE;
+            boolean sideRoomAvailable = false;
+            String[] roomNameAndDescription = loader.sideRoomsNamesAndDescriptions();
+
+            if(Math.random()<.4){
+                loot = loader.getRandomSideItem();
+            }
+            if(Math.random()<.2){
+                encounter = loader.getRandomSideEncounter();
+            }
+
+            sideRoom = new Room(loot, encounter, roomNameAndDescription[0], type, roomNameAndDescription[1], sideRoomAvailable);
+        }
+    }
+    public void makeBossRoom() {
+        GameDataLoader loader = new GameDataLoader();
+        String[] roomNameAndDescription = loader.mainRoomsNamesAndDescriptions();
+        Encounter encounter = loader.getRandomBossEncounter();
+        encounter.setArmor();
+        Room bossRoom = new Room(null, encounter, roomNameAndDescription[0], Room.RoomType.MAIN, roomNameAndDescription[1], false);
+        rooms.addToEnd(bossRoom);
     }
 }

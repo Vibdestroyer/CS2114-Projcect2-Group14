@@ -84,12 +84,12 @@ public class Player {
         return health > 0;
     }
     public void equipWeapon(Item weapon) {
-        if (weapon.getType() == Item.ItemType.WEAPON && inventory.contains(weapon)) {
+        if (weapon != null && weapon.getType() == Item.ItemType.WEAPON && inventory.contains(weapon)) {
             equippedWeapon = weapon;
         }
     }
     public void equipArmor(Item armor) {
-        if (armor.getType() == Item.ItemType.ARMOR && inventory.contains(armor)) {
+        if (armor != null && armor.getType() == Item.ItemType.ARMOR && inventory.contains(armor)) {
             equippedArmor = armor;
         }
     }
@@ -104,5 +104,11 @@ public class Player {
     }
     public Item getEquippedArmor() {
         return equippedArmor;
+    }
+    public int getInventorySize() {
+        return inventory.size();
+    }
+    public Item getInventoryItem(int index) {
+        return inventory.get(index);
     }
 }

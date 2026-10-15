@@ -19,6 +19,9 @@ public class GameDataLoader {
         } catch (FileNotFoundException e) {
             throw new IllegalStateException("Cannot load items from: " + file, e);
         }
+        if(itemData.isEmpty()){
+            throw new IllegalStateException("No data found in: " + file);
+        }
         Random rand = new Random();
         String randomItemData = itemData.get(rand.nextInt(itemData.size()));
         String[] parts = randomItemData.split(","); 
@@ -38,6 +41,9 @@ public class GameDataLoader {
     public Encounter getRandomSideEncounter(){
         return getRandomEncounter("Data/side_room_encounters.txt");
     }
+    public Encounter getRandomBossEncounter(){
+        return getRandomEncounter("Data/boss_encounters.txt");
+    }
 
     public Encounter getRandomEncounter(String file){
         ArrayList<String> encounterData = new ArrayList<>();
@@ -47,6 +53,9 @@ public class GameDataLoader {
             }
         } catch (FileNotFoundException e) {
             throw new IllegalStateException("Cannot load encounters from: " + file, e);
+        }
+        if(encounterData.isEmpty()){
+            throw new IllegalStateException("No data found in: " + file);
         }
         Random rand = new Random();
         String randomEncounterData = encounterData.get(rand.nextInt(encounterData.size()));

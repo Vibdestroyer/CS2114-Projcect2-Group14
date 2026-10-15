@@ -9,3 +9,12 @@ build/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Java Development Kit
+src/oracleJdk-27/
+
+# Compiled Java files
+*.class
+bin/
+out/
+build/
