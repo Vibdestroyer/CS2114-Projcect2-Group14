@@ -157,174 +157,197 @@ class LinkedChainTest
 
         assertEquals("[A, B]", chain.toString());
     }
-    
+
+
     @Test
     public void testAddNull()
     {
         assertThrows(IllegalArgumentException.class, () -> chain.add(null));
     }
-    
+
+
     @Test
     public void testAddToEndNull()
     {
-        assertThrows(IllegalArgumentException.class, () -> chain.addToEnd(null));
+        assertThrows(
+            IllegalArgumentException.class,
+            () -> chain.addToEnd(null));
     }
-    
+
+
     @Test
     public void testRemoveNull()
     {
         chain.addToEnd("A");
-        
+
         assertFalse(chain.remove(null));
         assertEquals(1, chain.size());
     }
-    
+
+
     @Test
     public void testRemoveFromEmptyChainSpecific()
     {
         assertFalse(chain.remove("A"));
     }
-    
+
+
     @Test
     public void testRemoveFirstSpecificEntry()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
-        
+
         assertTrue(chain.remove("A"));
         assertEquals("[B]", chain.toString());
     }
-    
+
+
     @Test
     public void testRemoveLastEntry()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
-        
+
         assertTrue(chain.remove("B"));
         assertEquals("[A]", chain.toString());
     }
-    
+
+
     @Test
     public void testRemoveOnlyEntry()
     {
         chain.addToEnd("A");
-        
+
         assertTrue(chain.remove("A"));
         assertTrue(chain.isEmpty());
         assertEquals(0, chain.size());
     }
-    
+
+
     @Test
     public void testGetNegativeIndex()
     {
         chain.addToEnd("A");
-        
+
         assertThrows(IndexOutOfBoundsException.class, () -> chain.get(-1));
     }
-    
+
+
     @Test
     public void testCountNull()
     {
         chain.addToEnd("A");
-        
+
         assertEquals(0, chain.count(null));
     }
-    
+
+
     @Test
     public void testToArrayNull()
     {
         assertThrows(IllegalArgumentException.class, () -> chain.toArray(null));
     }
-    
+
+
     @Test
     public void testToArrayTooSmall()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
-        
+
         String[] values = new String[1];
-        
-        assertThrows(IllegalArgumentException.class, () -> chain.toArray(values));
+
+        assertThrows(
+            IllegalArgumentException.class,
+            () -> chain.toArray(values));
     }
-    
+
+
     @Test
     public void testToArrayCorrectSize()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
-        
+
         String[] values = new String[2];
-        
-        assertArrayEquals(new String[] {"A", "B"}, chain.toArray(values));
+
+        assertArrayEquals(new String[] { "A", "B" }, chain.toArray(values));
     }
-    
+
+
     @Test
     public void testToArrayLargerThanChain()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
-        
+
         String[] values = new String[3];
-        
+
         String[] result = chain.toArray(values);
-        
+
         assertSame(values, result);
         assertEquals("A", result[0]);
         assertEquals("B", result[1]);
         assertNull(result[2]);
     }
-    
+
+
     @Test
     public void testToArrayEmptyChain()
     {
         String[] values = new String[0];
-        
+
         assertArrayEquals(values, chain.toArray(values));
     }
-    
+
+
     @Test
     public void testToStringEmptyChain()
     {
         assertEquals("[]", chain.toString());
     }
-    
+
+
     @Test
     public void testClearEmptyChain()
     {
         chain.clear();
-        
+
         assertTrue(chain.isEmpty());
         assertEquals(0, chain.size());
     }
-    
+
+
     @Test
     public void testIsEmptyWithEntries()
     {
         chain.addToEnd("A");
-        
+
         assertFalse(chain.isEmpty());
     }
-    
+
+
     @Test
     public void testRemoveEntryAtEnd()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
         chain.addToEnd("C");
-        
+
         assertTrue(chain.remove("C"));
         assertEquals("[A, B]", chain.toString());
         assertEquals(2, chain.size());
     }
-    
+
+
     @Test
     public void testRemoveEntryNotFoundAfterLoop()
     {
         chain.addToEnd("A");
         chain.addToEnd("B");
         chain.addToEnd("C");
-        
+
         assertFalse(chain.remove("D"));
         assertEquals("[A, B, C]", chain.toString());
     }

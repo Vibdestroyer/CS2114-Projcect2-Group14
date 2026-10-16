@@ -1,4 +1,5 @@
-public class Room{
+public class Room
+{
     private Item loot;
     private Encounter encounter;
     private String name;
@@ -6,10 +7,21 @@ public class Room{
     private String description;
     private boolean sideRoomAvailable;
 
-    public enum RoomType{
-        MAIN, SIDE, BOSS
+    public enum RoomType
+    {
+        MAIN,
+        SIDE,
+        BOSS
     }
-    public Room(Item l, Encounter e, String n, RoomType t, String d, boolean sra){
+
+    public Room(
+        Item l,
+        Encounter e,
+        String n,
+        RoomType t,
+        String d,
+        boolean sra)
+    {
         this.loot = l;
         this.encounter = e;
         this.name = n;
@@ -18,34 +30,63 @@ public class Room{
         this.sideRoomAvailable = sra;
     }
 
-    public Item getLoot() {
+
+    public Item getLoot()
+    {
         return loot;
     }
-    public Encounter getEncounter() {
+
+
+    public Encounter getEncounter()
+    {
         return encounter;
     }
-    public String getName() {
+
+
+    public String getName()
+    {
         return name;
     }
-    public RoomType getType() {
+
+
+    public RoomType getType()
+    {
         return type;
     }
-    public String getDescription() {
+
+
+    public String getDescription()
+    {
         return description;
     }
-    public boolean isSideRoomAvailable() {
+
+
+    public boolean isSideRoomAvailable()
+    {
         return sideRoomAvailable;
     }
-    public void setLoot(Item loot) {
+
+
+    public void setLoot(Item loot)
+    {
         this.loot = loot;
     }
-    public void setEncounter(Encounter encounter) {
+
+
+    public void setEncounter(Encounter encounter)
+    {
         this.encounter = encounter;
     }
-    public boolean hasLoot() {
+
+
+    public boolean hasLoot()
+    {
         return loot != null;
     }
-    public boolean hasEncounter() {
+
+
+    public boolean hasEncounter()
+    {
         return encounter != null;
     }
 }

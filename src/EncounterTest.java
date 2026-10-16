@@ -82,12 +82,12 @@ class EncounterTest
     public void testArmorBreaks()
     {
         encounter.setArmor();
-        
+
         Item armor = encounter.getArmor();
         armor.setDurability(1);
-        
+
         encounter.decreaseHealth(5);
-        
+
         assertNull(encounter.getArmor());
     }
 }
