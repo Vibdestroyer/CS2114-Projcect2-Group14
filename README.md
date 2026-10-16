@@ -13,4 +13,40 @@ Next Steps:
 - Who Did What:
     - Victor: Git hub Repo, Dungeon,Encounter,Main, gameDataLoader.
     - Max: Junit tests for everything, Player, Room, gitignore.
+    - CS 2114 Course Staff: Provided generic LinkedChain<T>
+    - OpenAi ChatGPT: Java explanations, debugging, and .txt file generation.
 - Additional Testing: Our next testing priorities are verifying weapon durability and swapping during gextended combat, boss damage calculations, inventory capacity limits. We also play to thoroughly test complete playthrough to identify issues that individual unit tests may not detect.
+How to Compile and Run
+
+Requirements
+    - Java Development Kit (JDK) 17 or newer
+    - Visual Studio Code with Java support, or another Java IDE
+    - JUnit and any required dependencies for running tests
+Running Linked Dungeons
+    - Download or clone the GitHub repository.
+    - Open the project folder in Visual Studio Code.
+    - Make sure the Data folder and src folder are located inside the project directory.
+    - Open src/Main.java.
+    - Run the Main class using the Java extension.
+    - Follow the terminal prompts to enter your character's name and play the game.
+The game uses text files in the Data directory to generate random rooms, items, and encounters. Therefore, the program must be run with the repository root as its working directory.
+
+Compiling and Running from the Terminal
+From the project's root directory, run:
+
+javac -d bin src/*.java
+java -cp bin Main
+
+This compiles the game's Java source files into the bin directory and starts the game.
+
+Running JUnit Tests
+The automated tests can be executed through Visual Studio Code's Java Test Runner or a compatible JUnit environment.
+    - Open the project in VS Code.
+    - Ensure the JUnit dependencies are configured.
+    - Open the Testing panel using the flask icon.
+    - Select Run All Tests.
+    - Review the results to verify that the tests pass.
+
+Command-line test instructions:
+javac -cp "lib/*" -d bin src/*.java
+java -jar lib/junit-platform-console-standalone-1.11.4.jar execute --class-path bin --scan-class-path
