@@ -41,7 +41,7 @@ public class Dungeon {
             boolean sideRoomAvailable = true;
             String[] roomNameAndDescription = loader.mainRoomsNamesAndDescriptions();
 
-            if(Math.random()<.6){
+            if(Math.random()<.7){
                 loot = loader.getRandomMainItem();
             }
             if(Math.random()<.3){
@@ -82,7 +82,7 @@ public class Dungeon {
             boolean sideRoomAvailable = false;
             String[] roomNameAndDescription = loader.sideRoomsNamesAndDescriptions();
 
-            if(Math.random()<.7){
+            if(Math.random()<.75){
                 loot = loader.getRandomSideItem();
             }
             if(Math.random()<.4){

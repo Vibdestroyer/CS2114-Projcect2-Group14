@@ -3,7 +3,7 @@ public class Player
     private final String name;
     private int maxHealth;
     private int health;
-    private LinkedChain<Item> inventory;
+    private final LinkedChain<Item> inventory;
     private Item equippedWeapon;
     private Item equippedArmor;
 
