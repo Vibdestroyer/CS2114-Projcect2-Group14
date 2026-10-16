@@ -50,4 +50,44 @@ class EncounterTest
         encounter.decreaseHealth(15);
         assertTrue(encounter.isDefeated());
     }
+
+
+    @Test
+    public void testGetArmor()
+    {
+        assertNull(encounter.getArmor());
+    }
+
+
+    @Test
+    public void testDecreaseHealthWithArmor()
+    {
+        encounter.setArmor();
+
+        Item armor = encounter.getArmor();
+        int armorValue = armor.getValue();
+        int initialDurability = armor.getDurability();
+
+        encounter.decreaseHealth(5);
+
+        assertEquals(
+            Math.max(0, 10 - Math.max(0, 5 - armorValue)),
+            encounter.getHealth());
+
+        assertEquals(initialDurability - 1, armor.getDurability());
+    }
+
+
+    @Test
+    public void testArmorBreaks()
+    {
+        encounter.setArmor();
+        
+        Item armor = encounter.getArmor();
+        armor.setDurability(1);
+        
+        encounter.decreaseHealth(5);
+        
+        assertNull(encounter.getArmor());
+    }
 }
