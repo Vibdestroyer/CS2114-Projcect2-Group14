@@ -2,6 +2,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
+
+            System.out.println("Working directory: "
+    + System.getProperty("user.dir"));
+
             System.out.print("Enter your character's name: ");
             Player player = new Player(scan.nextLine(), 100);
             Dungeon dungeon = new Dungeon();
@@ -13,7 +17,7 @@ public class Main {
             boolean playing = true;
             boolean won = false;
 
-            System.out.println("Welcome to the linked dungeon, " + player.getName() + "!\n");
+            System.out.println("\nWelcome to the linked dungeon, " + player.getName() + "!\n");
 
             while (playing && player.isAlive()) {
                 Room room = dungeon.getCurrentRoom();
@@ -26,12 +30,15 @@ public class Main {
                 boolean loot =dungeon.getCurrentRoom().getLoot() != null;
                 boolean encounter = dungeon.getCurrentRoom().getEncounter() != null;
                 boolean sideRoom = dungeon.getCurrentRoom().isSideRoomAvailable();
-                int choice = -1;
+                int choice;
 
                 if (loot) {
                     System.out.println("You see a " + dungeon.getCurrentRoom().getLoot().getName() + " in the room.");
                 }
                 if (encounter) {
+                    if (loot){
+                        System.out.println();
+                    }
                     Encounter enemy = dungeon.getCurrentRoom().getEncounter();
 
                     System.out.println("Enemy: " + enemy.getName());
@@ -68,10 +75,10 @@ public class Main {
                 System.out.println("7. Quit");
                 System.out.println("8. Encounter Catalog");
 
-                System.out.print("Choice: ");
+                System.out.print("\nChoice: ");
 
                 while (!scan.hasNextInt()) {
-                    System.out.println("Please enter a valid number!");
+                    System.out.println("\nPlease enter a valid number!");
                     scan.nextLine();
                 }
 
@@ -82,7 +89,7 @@ public class Main {
                 switch (choice) {
                     case 1 -> { // Attack
                         if (!encounter) {
-                            System.out.println("There is no enemy to attack!");
+                            System.out.println("\nThere is no enemy to attack!");
                         }
                         else {
                             Encounter enemy = room.getEncounter();
@@ -91,7 +98,7 @@ public class Main {
                             if (enemy.isDefeated()) {
                                 defeatedCount++;
 
-                                System.out.println("You defeated the " + enemy.getName() + "!");
+                                System.out.println("\nYou defeated the " + enemy.getName() + "!");
                                 room.setEncounter(null);
 
                                 if (room.getType() == Room.RoomType.BOSS) {
@@ -104,7 +111,7 @@ public class Main {
                                 player.takeDamage(enemy.getDamage());
 
                                 int actualDamage = healthBefore - player.getHealth();
-                                System.out.println("You took " + actualDamage + " damage!");
+                                System.out.println("\nYou took " + actualDamage + " damage!");
                             }
                         }
                     }
@@ -150,7 +157,7 @@ public class Main {
                             player.addItem(item);
                             room.setLoot(null);
 
-                            System.out.println("You picked up " + item.getName());
+                            System.out.println("\nYou picked up " + item.getName());
                         }
                         else {
                             System.out.println("\nYou cannot collect loot right now.");
