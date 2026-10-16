@@ -46,6 +46,9 @@ public class Main {
                     System.out.println(enemy.getDescription());
                 }
                 if (sideRoom) {
+                    if (loot || encounter){
+                        System.out.println();
+                    }
                     System.out.println("There is a side room available to explore.");
                 }
                 
