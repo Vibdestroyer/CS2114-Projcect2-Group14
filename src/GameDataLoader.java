@@ -30,7 +30,7 @@ public class GameDataLoader {
         String description = parts[1];
         int value = Integer.parseInt(parts[2]);
         int durability = Integer.parseInt(parts[3]);
-        Item.ItemType type = Item.ItemType.valueOf(parts[4]);
+        Item.ItemType type = Item.ItemType.valueOf(parts[4].trim());
         return new Item(name, description, value, durability, type);        
     }
 

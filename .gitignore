@@ -1,1 +1,23 @@
-/bin/
+# Java compiled files
+*.class
+
+# Build output
+bin/
+out/
+build/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Java Development Kit
+src/oracleJdk-27/
+
+# Compiled Java files
+*.class
+bin/
+out/
+build/
+
+# Eclipse / Java IDE generated files
+.project

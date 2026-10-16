@@ -25,16 +25,22 @@ public class Encounter {
     public Item getArmor() {
         return armor;
     }
-    public void decreaseHealth(int amount) {
-        this.health -= amount;
-    }
-    public void decreaseBossHealth(int amount) {
-        if (amount-armor.getValue() < 0) {
-            this.health -= 0;
-        } else {
-            this.health -= amount - armor.getValue();
+   public void decreaseHealth(int amount) {
+        int effectiveDamage = amount;
+
+        if (armor != null) {
+            effectiveDamage = Math.max(0, amount - armor.getValue());
+
+            armor.decreaseDurability();
+
+            if (armor.getDurability() <= 0) {
+                armor = null;
+            }
         }
+
+        health = Math.max(0, health - effectiveDamage);
     }
+    
     public boolean isDefeated() {
         return health <= 0;
     }
